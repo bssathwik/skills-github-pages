@@ -35,3 +35,31 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Java/Maven specific #
+#######################
+backend/target/
+*.iml
+*.ipr
+*.iws
+.idea/
+.settings/
+.project
+.classpath
+
+# Node.js/React specific #
+##########################
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+*.tgz
+*.tar.gz
+.npm
+.eslintcache
+.parcel-cache
+
+# Application specific #
+########################
+*.h2.db
+*.mv.db
+*.trace.db
