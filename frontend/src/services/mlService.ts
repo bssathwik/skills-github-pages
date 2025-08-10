@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { PredictionRequest, PredictionResponse, Prediction } from '../types';
+import type { PredictionRequest, PredictionResponse, Prediction } from '../types';
 
 const API_BASE_URL = 'http://localhost:8080/api/ml';
 

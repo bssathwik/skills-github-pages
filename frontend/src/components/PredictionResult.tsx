@@ -1,5 +1,5 @@
 import React from 'react';
-import { PredictionResponse } from '../types';
+import type { PredictionResponse } from '../types';
 
 interface PredictionResultProps {
   result: PredictionResponse | null;

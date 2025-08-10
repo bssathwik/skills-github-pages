@@ -4,7 +4,7 @@ import PredictionForm from './components/PredictionForm';
 import PredictionResult from './components/PredictionResult';
 import PredictionHistory from './components/PredictionHistory';
 import StatusIndicator from './components/StatusIndicator';
-import { PredictionResponse } from './types';
+import type { PredictionResponse } from './types';
 
 function App() {
   const [currentPrediction, setCurrentPrediction] = useState<PredictionResponse | null>(null);

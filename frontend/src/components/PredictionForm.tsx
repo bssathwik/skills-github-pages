@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { PredictionRequest, PredictionResponse } from '../types';
+import type { PredictionRequest, PredictionResponse } from '../types';
 import { mlService } from '../services/mlService';
 
 interface PredictionFormProps {

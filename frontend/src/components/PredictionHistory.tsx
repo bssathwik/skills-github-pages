@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Prediction } from '../types';
+import type { Prediction } from '../types';
 import { mlService } from '../services/mlService';
 
 const PredictionHistory: React.FC = () => {
